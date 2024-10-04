@@ -1,0 +1,3 @@
+[submodule "react-blog-project"] 
+  path = react_blog_project
+  url = https://github.com/UruTe4R/react-blog-project.git
