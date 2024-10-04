@@ -12,14 +12,15 @@
     "react-router-dom": "^6.26.2",
     "react-scripts": "^5.0.1"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -f -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+,
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -46,7 +47,7 @@
       "postcss": "8.4.47"
     }
   },
-  "homepage": "https://urute4r.github.io/react-blog-project/",
+  "homepage": "https://urute4r.github.io/react-blog-project",
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
