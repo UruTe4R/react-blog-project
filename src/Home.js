@@ -10,7 +10,7 @@ const Home = ({ isLoading, fetchError }) => {
     <main className="Home">
       {isLoading && <p className="statusMsg">Loading posts...</p>}
       {!isLoading && fetchError && (
-        <p className="statusMsg" style={{ color: 'red' }}>{fetchError}</p>
+        <p className="statusMsg" style={{ color: 'red' }}>{fetchError}No Server to Connect</p>
       )}
       {!fetchError && !isLoading && (
         searchResults.length ? (
